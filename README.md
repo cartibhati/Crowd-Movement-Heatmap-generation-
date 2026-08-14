@@ -3,7 +3,7 @@
 An AI-based crowd surveillance system that processes video feeds, detects and tracks individuals, generates dynamic crowd density and trajectory heatmaps, triggers configurable alerts, and stores analysis statistics in CSV logs.
 
 This repository implements the Crowd Movement Heatmap Generator (Task ID 180).
-
+ 
 ## 🚀 Key Features
 
 1. **Pedestrian Tracking:** Uses a pre-trained YOLOv8 object detection model (`yolov8n.pt`) with native `ByteTrack` tracking to identify and track individual pedestrians (Class ID 0) frame-by-frame.
